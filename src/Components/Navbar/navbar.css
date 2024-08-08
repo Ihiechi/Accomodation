@@ -1,0 +1,131 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    width: 42px;
+    height: 36px;
+}
+
+header div h1 {
+    background: linear-gradient(91.47deg, #DC3E88 18.25%, #B840AE 43.34%, #843FE8 78.18%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-left: 10px;
+}
+
+nav.nav-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav.nav-links ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav.nav-links ul li {
+    list-style: none;
+    font-family: Rose, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  
+}
+
+nav.nav-links ul a {
+    text-decoration: none;
+    color: #434343;
+}
+
+button.cta-button {
+    width: 170px;
+    height: 48px;
+    padding: 15px 26px 13px 27px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    color: white;
+    cursor: pointer;
+}
+button.cta-button.desktop {
+    display: block;
+}
+
+.menu-toggle-wrapper {
+    display: none;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+ }
+
+button.menu-toggle {
+    background: none;
+    border: none;
+    font-size: 28px; /* Set consistent font size for both icons */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Fixed width for the icon container */
+    height: 40px; /* Optional: Set a fixed height for consistency */
+    position: relative; /* Ensure proper positioning */
+}
+
+
+
+@media (max-width: 768px) {
+    /* Hide desktop button on small screens */
+
+    nav.nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    nav.nav-links.open {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    nav.nav-links ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: justify;
+    }
+
+    /* Responsive CTA button */
+     /* Display the responsive CTA button when the nav is open */
+    .menu-toggle-wrapper {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 20px;
+        top: 40px;
+    }
+    button.cta-button.desktop {
+        display: none;
+    }
+    button.cta-button.responsive {
+        display: none;
+        margin-top: 20px;
+        width: 100%;
+    }
+    nav.nav-links.open .cta-button.responsive {
+        display: block;
+    }
+
+   }

@@ -1,0 +1,39 @@
+
+.product-one{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.first-product{
+   width: 292px;
+   border-radius: 15px;    
+   border: 1px solid #D7D7D7;
+   padding: 10px;
+}
+.image-one{
+    width: 260px;
+    height: 265px;
+    }
+.prod-text{
+    display: flex;
+    justify-content: justify;
+    gap: 10px;
+}
+.prod-text p{
+    width: 100%;
+}
+.stars{
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+}
+.product-two{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 10px;
+}
