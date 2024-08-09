@@ -85,6 +85,10 @@
     height: 37.56px;
     margin-top: 25px;
 }
+.hero-right{
+    display: flex;
+    gap: 5px;
+}
 
 /* Responsive Styles */
 
@@ -118,6 +122,10 @@
     .hero-left form button {
         margin-top: 10px;
     }
+    .hero-right{
+        flex-direction: column;
+        padding: 0 50%;
+    }
     .banner{
       display: flex;
       flex-direction: column;
@@ -125,11 +133,11 @@
     .banner h1{
         font-size: 25px;
     }
-
     .banner-two img {
         width: 30px;
         height: 30px;
     }
+
 }
 
 /* For mobile phones */
