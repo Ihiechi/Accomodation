@@ -14,7 +14,6 @@ footer {
   align-items: center;
   text-align: center;
 }
-
 .footer-meta {
   display: flex;
   align-items: center;
@@ -90,6 +89,7 @@ footer {
 /* Media Query for Tablets (max-width: 768px) */
 @media (max-width: 768px) {
   footer {
+    max-width: 100%;
     padding: 15px 20px; /* Adjust padding for medium screens */
   }
 
@@ -118,6 +118,7 @@ footer {
 /* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
   footer {
+    max-width: 100%;
     padding: 10px 15px; /* Adjust padding for smaller screens */
     flex-direction: column; /* Stack items vertically */
     align-items: center;
