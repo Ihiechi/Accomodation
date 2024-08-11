@@ -1,1 +1,7 @@
-
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .container {
+    overflow-x: hidden; /* Apply to specific container if needed */
+  }

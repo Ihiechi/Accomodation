@@ -73,18 +73,18 @@
     }
   
     .new-right {
-      max-width: 100%; /* Adjust max width */
+   
+      height: auto ;
     }
     .new-right img{
-      width: 100%;
-      align-items: center;
+      display: none;
     }
   }
   
   /* Media Query for Mobile Devices (max-width: 480px) */
   @media (max-width: 480px) {
     .new {
-      max-width: 100%;
+      width: auto;
       padding: 10px 15px; 
       flex-direction: column; /* Stack items vertically */
       align-items: center; /* Center items vertically */
@@ -93,7 +93,7 @@
     .new-h {
       font-size: 28px; /* Further adjust font size */
       line-height: 38px;
-      margin-left: 0; /* Remove left margin */
+     /* Remove left margin */
       text-align: center; /* Center text */
       margin-bottom: 10px; /* Add spacing */
     }
