@@ -177,6 +177,7 @@
     .hero-right img {
         width: 155px;
         text-align: center;
+        padding: 10px;
     }
 }
 
