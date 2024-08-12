@@ -87,7 +87,10 @@
 }
 .hero-right{
     display: flex;
-    gap: 5px;
+    gap: 1px;
+}
+.hero-right-one{
+    margin-top: 100px;
 }
 
 /* Responsive Styles */
@@ -123,8 +126,15 @@
         margin-top: 10px;
     }
     .hero-right{
-        flex-direction: column;
-        padding: 0 50%;
+        flex-direction: row;
+        width: auto
+        /* padding: 0 50%; */
+    }
+    .hero-right-one{
+        margin-top: 0;
+    }
+    .hero-right-one img{
+        width: auto;
     }
     .banner{
       display: flex;
@@ -164,6 +174,9 @@
         width: 24px;
         height: 24px;
     }
+    .hero-right img {
+        width: 155px;
+    }
 }
 
 /* For very small screens */
@@ -183,6 +196,9 @@
     .banner-two img {
         width: 20px;
         height: 20px;
+    }
+    .hero-right-one {
+        width: auto;
     }
 }
 

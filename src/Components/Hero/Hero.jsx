@@ -22,16 +22,16 @@ export default function Hero() {
             <button>Search</button>
         </form>
     </div>
-    <div className="hero-right">
-        <div className="hero-right-one">
+        <div className='hero-right'>
+        <div className='hero-right-one'>
             <img src= {ImageFour} class="img-one" alt=""/>
             <img src={ImageSix}alt=""/>
         </div>
-        <div className="hero-right-two">
+        <div className='hero-right-two'>
             <img src={ImageThree} alt=""/>
             <img src={ImageFive}alt=""/>
         </div>
-    </div>
+        </div>
 </div>
 <div className="banner">
             <div className='banner-two'>
